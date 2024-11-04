@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>Rock_Paper_Scissors</title>
         <link rel="stylesheet" href="stylee.css">
-        <script src="JSscript.js"></script>
     </head>
     <body>
         <div class="Header">
@@ -12,28 +11,29 @@
             <ol class="list1">
                 <li><button class="l1-b1">Login</button></li>
                 <li><button class="l1-b2">Signup</button></li>
-                <li><button class="l1-b3" onclick="">Contact-Us</button></li> 
+                <li><button class="l1-b3" onclick="Redirector('github.com/Hitotsume-nozo')">Contact-Us</button></li> 
             </ol>
         </div>
         <div class="Mid_Sec">
             <div class="block">
                 Need help regarding Playing Instructions?
-                <button id="b1">Press Me~</button>
+                <button id="b1" onclick="GetValue(id,'github.com/Hitotsume-nozo')">Press Me~</button>
             </div>
         </div>
         <div class="rem-block">
             <ol class="choice">
                 <li>
-                    <button id="Roc">Rock</button>
+                    <button class="ref" id="roc" onclick="main(id)">Rock</button>
                 </li>
                 <li>
-                    <button id="Pap">Paper</button>
+                    <button class="ref" id="pap" onclick="main(id)">Paper</button>
                 </li>
                 <li>
-                    <button id="Scis">Scissors</button>
+                    <button class="ref" id="scis" onclick="main(id)">Scissors</button>
                 </li>
             </ol>
         </div>
         <div class="footer"><p class="useless">Copyright Odin Project</p></div>
     </body>
+    <script src="JSscript.js"></script>
 </html>
