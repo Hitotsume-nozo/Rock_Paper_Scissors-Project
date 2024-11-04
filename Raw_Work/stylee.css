@@ -89,16 +89,16 @@ h1{
     background-color: cornflowerblue;
     padding: 1em;
 }
-#Roc,
-#Pap,
-#Scis{
+#roc,
+#pap,
+#scis{
     min-width: 300px;
     block-size: 100px;
     border-radius: 50px;
 }
-#Roc:hover,
-#Pap:hover,
-#Scis:hover{
+#roc:hover,
+#pap:hover,
+#scis:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 19px;
