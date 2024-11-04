@@ -1,0 +1,119 @@
+/*styling begins here*/
+body{
+    font-family: cursive;
+    background-color: black;
+}
+a{
+    color: black;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+    block-size: 100px;
+    background-color: #070713;
+    color: antiquewhite;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.list1{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.l1-b1,
+.l1-b2,
+.l1-b3{
+    min-width: 3cm;
+    block-size: 2.1em;
+    border-radius: 0.3em;
+}
+.l1-b1:hover,
+.l1-b2:hover,
+.l1-b3:hover {
+    background-color: cornsilk;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: scale(1.2);
+}
+.Mid_Sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: seashell ;
+}
+.block{
+    display: flex;
+    block-size: 100px;
+    max-width: 800px;
+    align-items: center;
+    margin: 1.5em;
+    padding: 2em;
+    gap: 10em;
+    border-radius: 75px;
+    font-size: 21px;
+    font-family: fantasy;
+    background-color: dimgray;
+}
+#b1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    block-size: 65px;
+    min-width: 150px;
+    border-radius: 75px;
+}
+#b1:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    font-style: oblique;
+    background-color: slategrey;
+    transform: scale(1.2);
+}
+.rem-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.choice{
+    block-size: 200px;
+    gap: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    border-radius: 20%;
+    flex-grow: 1;
+    background-color: cornflowerblue;
+    padding: 1em;
+}
+#Roc,
+#Pap,
+#Scis{
+    min-width: 300px;
+    block-size: 100px;
+    border-radius: 50px;
+}
+#Roc:hover,
+#Pap:hover,
+#Scis:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    font-style: italic;
+    background-color: rgb(5, 250, 172);
+    transform: scale(1.2);
+}
+.footer{
+    block-size: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #070713;
+}
+.useless{
+    display: flex;
+    align-items: end;
+    color: antiquewhite;
+}
